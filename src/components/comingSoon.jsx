@@ -1,4 +1,6 @@
 import React from "react";
+
+import aescensionTitle from '../assets/aescension-title.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import {
@@ -11,9 +13,7 @@ const ComingSoon = () => {
   return (
     <div className="flex flex-col h-screen w-screen bg-gradient-to-b from-gray-400 to-gray-900 justify-center items-center p-4 font-[Saira]">
       <div className="flex flex-col items-center text-center mx-auto w-full">
-        <h1 className="text-white text-[200px] font-bold mb-8 font-serif text-center">
-          Coming Soon
-        </h1>
+        <img className="w-auto h-24 object-cover" src={aescensionTitle}/>
         <p className="text-gray-300 text-[40px] mb-12 text-center">
           We&apos;re working hard to bring you something amazing. Stay tuned!
         </p>
