@@ -14,12 +14,12 @@ const ComingSoon = () => {
   return (
     <div className="flex flex-col h-screen w-screen bg-gradient-to-b from-gray-400 to-gray-900 justify-center items-center p-4 font-[Saira]">
       <div className="flex flex-col items-center text-center mx-auto w-full">
-        <img className="w-auto h-24 object-cover" src={aescensionTitle}/>
-        <p className="text-gray-300 text-[40px] mb-12 text-center">
+        <img className="w-[48-rem] md:w-288  h-auto object-cover" src={aescensionTitle}/>
+        <p className="text-gray-300 text-[1.5rem] md:text-[3rem] mb-12 mt-8 text-center">
           We&apos;re working hard to bring you something amazing. Stay tuned!
         </p>
 
-        <p className="text-gray-300 text-[40px] mb-12 text-center">
+        <p className="text-gray-300 text-[1.5rem] md:text-[3rem] mb-12 text-center">
           Follow our socials to stay updated
         </p>
 
